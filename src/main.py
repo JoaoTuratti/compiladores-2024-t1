@@ -4,7 +4,7 @@
 
 import sys
 
-from lexer import lexer
+from lexer.lexer import lexer
 import errors
 
 

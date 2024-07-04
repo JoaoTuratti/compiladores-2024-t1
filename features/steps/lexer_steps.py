@@ -5,7 +5,7 @@ from io import StringIO
 from behave import given, when, then  # pylint: disable=no-name-in-module
 
 import errors
-import lexer
+import lexer.lexer as lexer
 
 
 @given("um programa Pascal")
